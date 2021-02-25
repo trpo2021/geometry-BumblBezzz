@@ -30,4 +30,5 @@
 *.exe
 *.out
 *.app
-/*all_sort
+*all_sort
+*geometry
