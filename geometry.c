@@ -10,6 +10,11 @@ void chek_circle(char* string)
         printf("Error: expected circle\n");
         exit(0);
     }
+    char cir_2[] = "circle(";
+    if (memcmp(string, cir_2, 7) != 0) {
+        printf("Error: expected (\n");
+        exit(0);
+    }
 }
 
 int main()
